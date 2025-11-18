@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "ErsUUc8fYxM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mague\\OneDrive\\Área de Trabalho\\Centennial\\API Engineering & Cloud Comp\\Lab 2\\301428777(GuertaLigo)_Lab#2\\301428777(GuertaLigo)_Lab#2\\301428777(GuertaLigo)_Lab2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mague\\.nuget\\packages\\awssdk.core\\4.0.0.29\\awssdk.core.4.0.0.29.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\awssdk.dynamodbv2\\4.0.6.3\\awssdk.dynamodbv2.4.0.6.3.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\awssdk.s3\\4.0.7.4\\awssdk.s3.4.0.7.4.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\syncfusion.compression.base\\31.1.21\\syncfusion.compression.base.31.1.21.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\syncfusion.licensing\\31.1.21\\syncfusion.licensing.31.1.21.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\syncfusion.pdf.wpf\\31.1.21\\syncfusion.pdf.wpf.31.1.21.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\syncfusion.pdftoimageconverter.wpf\\31.1.21\\syncfusion.pdftoimageconverter.wpf.31.1.21.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\syncfusion.pdfviewer.wpf\\31.1.21\\syncfusion.pdfviewer.wpf.31.1.21.nupkg.sha512",
+    "C:\\Users\\mague\\.nuget\\packages\\syncfusion.shared.wpf\\31.1.21\\syncfusion.shared.wpf.31.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

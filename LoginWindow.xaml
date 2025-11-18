@@ -1,0 +1,54 @@
+﻿<Window x:Class="_301428777_GuertaLigo__Lab_2.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_301428777_GuertaLigo__Lab_2"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,10,0,10">
+            <TextBlock Text="Lab#2 - Amazon DynamoDB Service"
+                       FontWeight="Bold"
+                       FontSize="14"
+                       HorizontalAlignment="Center"
+                       Margin="0,5,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="40,10">
+            <TextBlock Text="User Name" Margin="0,5,0,0"/>
+            <TextBox x:Name="EmailBox" Height="25" Margin="0,2,0,10"/>
+
+            <TextBlock Text="Password" Margin="0,5,0,0"/>
+            <PasswordBox x:Name="PasswordBox" Height="25" Margin="0,2,0,20"/>
+
+            <Button Content="Login"
+                    Height="30"
+                    Width="100"
+                    HorizontalAlignment="Center"
+                    Background="#0a5cab"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="OnLoginClick"/>
+        </StackPanel>
+        <Border Grid.Row="2" Background="#2c9696">
+            <DockPanel VerticalAlignment="Center">
+                <TextBlock Text="Maria Angelina Guerta Ligo"
+                           Foreground="White"
+                           FontWeight="Bold"
+                           Margin="10,0,0,0"
+                           DockPanel.Dock="Left"/>
+                <TextBlock Text="CENTENNIAL COLLEGE"
+                           Foreground="White"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Right"
+                           DockPanel.Dock="Right"
+                           Margin="0,0,10,0"/>
+            </DockPanel>
+        </Border>
+    </Grid>
+</Window>
